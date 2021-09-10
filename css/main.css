@@ -101,7 +101,7 @@ img {
 
 /* L'erreur d'affichage */
 .sign-in-main-wrapper {
-    background-color: var(--color-secndary); /* la variable n'existe pas */
+    background-color: var(--color-secondary); /* la variable n'existe pas */
     color: var(--color-primary);
     padding: 60px 40px 30px;
 }

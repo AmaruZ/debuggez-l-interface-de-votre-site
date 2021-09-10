@@ -6,8 +6,8 @@ const $userEmailErrorMsg = document.querySelector('.user-email-error-msg')
 const $userPasswordInput = document.querySelector('#user-password')
 const $userPasswordErrorMsg = document.querySelector('.user-password-error-msg')
 
-const USER_EMAIL = "thomas@facadia.com"
-const USER_PASSWORD = "azerty"
+const USER_EMAIL = "a@a.com"
+const USER_PASSWORD = "aa"
 
 const checkUserEmailInput = () => {
     const isUserEmailValid = $userEmailInput.value.toLowerCase() === USER_EMAIL
@@ -37,7 +37,7 @@ const isFormValid = () => checkUserEmailInput() && checkUserPasswordInput()
 
 // L'erreur en console
 // L'élément du DOM est mal sélectionné
-$sgnInForm.addEventListener('submit', function(e) {
+$signInForm.addEventListener('submit', function(e) {
     e.preventDefault()
 
     if (isFormValid()) {
